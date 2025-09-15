@@ -17,3 +17,5 @@ INNER JOIN Authors a ON b.AuthorID = a.AuthorID
 GO 
 
 SELECT * FROM BookAuthorDetail;
+
+

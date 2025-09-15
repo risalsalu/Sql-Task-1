@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS Sales;
-
+USE BookDB
 CREATE TABLE Sales(
     SaleID INT PRIMARY KEY,
     BookID INT,

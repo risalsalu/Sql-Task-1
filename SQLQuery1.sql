@@ -7,7 +7,7 @@ BEGIN
 END
 GO
 
-USE LibraryDB;
+USE BookDB;
 GO
 
 IF OBJECT_ID(N'dbo.Books', N'U') IS NOT NULL
@@ -32,12 +32,12 @@ INSERT INTO dbo.Books (Title, Author, PublicationYear) VALUES
 ('The Catcher in the Rye', 'J.D. Salinger', 1951);
 GO
 
-USE LibraryDB;
+USE BookDB;
 GO
 SELECT * FROM dbo.Books;
 
 
-USE LibraryDB;
+USE BookDB;
 GO
 DECLARE @Year INT = 1949;  
 SELECT *

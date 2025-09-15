@@ -3,7 +3,6 @@ DROP TABLE IF EXISTS Authors;
 DROP TABLE IF EXISTS Books;
 
 
-
 CREATE TABLE Publishers(
 PublisherID INT PRIMARY KEY,
 PublisherName VARCHAR(100)NOT NULL UNIQUE,
@@ -39,7 +38,6 @@ INSERT INTO Publishers(PublisherID,PublisherName,Country)VALUES
 (3,'JANARDHAN','AMERICA'),
 (4,'AJAY','GERMANY'),
 (5,'ANAS','INDIA');
-
 
 
 INSERT INTO Authors(AuthorID,AuthorName,BirthYear)VALUES
