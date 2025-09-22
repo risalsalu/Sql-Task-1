@@ -14,7 +14,7 @@ IF OBJECT_ID(N'dbo.Books', N'U') IS NOT NULL
     DROP TABLE dbo.Books;
 GO
 
-CREATE TABLE dbo.Books
+CREATE table dbo.Books
 (
     BookID INT IDENTITY(1,1) PRIMARY KEY,
     Title  NVARCHAR(100) NOT NULL,
