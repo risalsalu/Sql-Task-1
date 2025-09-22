@@ -9,7 +9,7 @@ PublisherName VARCHAR(100)NOT NULL UNIQUE,
 Country VARCHAR(100)
 );
 
-CREATE TABLE Authors(
+CREATE table Authors(
 AuthorID INT PRIMARY KEY,
 AuthorName VARCHAR(100)NOT NULL,
 BirthYear INT CHECK (BirthYear > 1900)
